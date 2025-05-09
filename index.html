@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Location Selector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Select Your Location</h2>
+
+    <label for="country">Select Country:</label>
+    <select id="country" data-cy="country-select">
+      <option key="" value="">Select Country</option>
+    </select>
+
+    <label for="state">Select State:</label>
+    <select id="state" data-cy="state-select" disabled>
+      <option key="" value="">Select State</option>
+    </select>
+
+    <label for="city">Select City:</label>
+    <select id="city" data-cy="city-select" disabled>
+      <option key="" value="">Select City</option>
+    </select>
+
+    <p id="selection" data-cy="selection-output"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
